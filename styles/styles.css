@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background: #ef32d9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.body2{
+    background: #00c3ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#cuerpo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#figura{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#selecciona-comando{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 215px;
+    background: #642B73;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-sizing: border-box;
+    border: 1px solid hotpink;
+}
+
+.titulo{
+    color: lightsalmon;
+}
+
+a:link{
+    color: hotpink;
+}
+a:visited{
+    color: tomato;
+}
+a:hover{
+    background-color: palegoldenrod;
+}
+p:not(.sena){
+    color: lightsalmon;
+}
+/* .container div:nth-child(1){
+    color: lightseagreen;
+} */
+.shadow{
+    background: lightgray;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.circle{
+    background: #3a6186;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.circle:hover{
+    transform: translateX(-20px);
+}
+#figura{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* label{
+    background-color: tomato;
+} */
+/* input{
+    background-color: rgb(96, 4, 4);
+} */
+button{
+    background-color: blueviolet;
+}
+.tarjeta{
+    width: 180px;
+    height: 100px;
+    background: aquamarine;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid hotpink;
+    border-radius: 20px;
+    display: flex;
+    color: white;
+}
+
+.tarjeta img{
+    width: 80px;
+}
+
+input{
+    display: none;
+}
+.titulo-2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.tarjetaa{
+    display: flex;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+}
